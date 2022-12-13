@@ -1,0 +1,145 @@
+:root {
+  /* tipografias */
+  --titles: 'Cinzel', serif;
+  --paragraph: 'Inter', sans-serif;
+  /* Colors */
+  --cards: #16161a;
+  --background: hsl(240, 8, 17);
+  --yellow: rgb(255, 195, 77);
+  --azul: #68b0f3;
+  --blanco: #fff;
+
+  --background-rgba: rgba(17, 17, 17, 0.5);
+}
+
+.main_container {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  inset: 0;
+  background-color: var(--background-rgba);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.character {
+  max-width: 830px;
+  height: 600px;
+  position: absolute;
+  margin-left: 40%;
+  animation: character 2s;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.main_presentation {
+  width: 85%;
+  height: 75%;
+  padding: 20px;
+  animation: character 2.5s;
+}
+
+.main_text {
+  color: var(--blanco);
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main_text h2 {
+  font-size: 2.5rem;
+  animation: character 2.9s;
+}
+
+.main_text p {
+  font-family: var(--paragraph);
+  font-size: 1rem;
+  font-weight: 300;
+  animation: character 3.3s;
+}
+
+.btn{
+  width: 100%;
+  margin-top: 5%;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  animation: character 3.7s;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  padding: 9px 30px;
+}
+
+.border{
+  border: 1px solid var(--blanco);
+}
+
+@keyframes character {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@media (max-width:850px) {
+
+  .main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .character{
+    width: 350px;
+    height: 300px;
+    margin-left: 10%;
+  }
+
+  .main_presentation{
+    padding: 10px;
+  }
+
+  .main_text{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_text h2{
+    font-size: 1.5rem;
+  }
+
+  .main_text p{
+    font-size: 0.9rem;
+  }
+
+  .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .link{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}

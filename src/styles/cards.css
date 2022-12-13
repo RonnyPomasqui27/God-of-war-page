@@ -1,0 +1,323 @@
+:root {
+  /* tipografias */
+  --titles: 'Cinzel', serif;
+  --paragraph: 'Inter', sans-serif;
+  /* Colors */
+  --cards: #16161a;
+  --background: hsl(240, 8, 17);
+  --yellow: rgb(255, 195, 77);
+  --azul: #68b0f3;
+  --blanco: #fff;
+
+  --background-rgba: rgba(17, 17, 17, 0.5);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_container {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.card_character {
+  width: 280px;
+  object-fit: cover;
+  border-radius: 9px 0px 0px 9px;
+}
+
+.cards_character {
+  padding: 20px;
+}
+
+.Swipper_info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: rgba(17, 17, 17, 0.2);
+  border-radius: 15px;
+}
+
+.swipper_character {
+  font-family: var(--paragraph);
+  width: 50%;
+  padding: 20px;
+  background-color: var(--background-rgba);
+  border-radius: 0px 9px 9px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.swipper_character p {
+  color: white;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.swipper_character img {
+  animation: Card_logo 2.5s infinite linear;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--blanco) !important;
+  opacity: 0.8 !important;
+}
+
+.collage {
+  margin-top: 8%;
+}
+
+.collage_cointaner {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url('https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-gow-series-visual-1920x1080-29may22?$1600px--t$');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.collage_img {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.collage_imgs {
+  width: 90%;
+  object-fit: cover;
+  position: relative;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.collage_imgs:hover {
+  transform: scale(1.4);
+}
+
+.collage-text {
+  width: 50%;
+  border: 1px solid var(--blanco);
+  padding: 30px;
+  /* border-radius: 10px; */
+  background-color: var(--background-rgba);
+}
+
+.collage-text h2 {
+  color: var(--blanco);
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.collage-text p {
+  font-family: var(--paragraph);
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.arms_img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.arms_container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+}
+
+.arm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 15px;
+}
+
+.first {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  background-color: var(--background-rgba);
+  padding: 30px;
+}
+
+.arms_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.arms_text p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.arms_text span {
+  font-family: var(--paragraph);
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.footer{
+  width: 100%;
+  height: 80px;
+  background-color: var(--background-rgba);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer a{
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: grey;
+
+}
+
+.footer p{
+  font-family: var(--paragraph);
+  font-size: 0.6rem;
+  text-decoration: none;
+  color: grey;
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes Card_logo {
+  0% {
+    transform: translateY(0px);
+
+  }
+
+  25% {
+    transform: translateY(-5px);
+    opacity: 1;
+
+  }
+
+  50% {
+    transform: translateY(0px);
+
+  }
+
+  75% {
+    transform: translateY(5px);
+    opacity: 0;
+
+  }
+
+  100% {
+    transform: translateY(0px);
+
+  }
+}
+
+@media (max-width:850px) {
+
+  .card_container {
+    width: 100%;
+    padding: 0px;
+    margin-top: 3%;
+  }
+
+  .card_character {
+    width: 100px;
+    object-fit: cover;
+  }
+
+  .swipper_character {
+    width: 100%;
+  }
+
+  .swipper_character p {
+    font-size: 0.8rem;
+  }
+
+  .collage_cointaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .collage_img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .collage_imgs {
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .collage-text {
+    width: 90%;
+  }
+
+  .collage-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .collage-text p {
+    font-size: 0.9rem;
+  }
+
+  .arm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arms_img{
+    width: 80px;
+  }
+
+  .first{
+    height: 350px;
+  }
+}

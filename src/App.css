@@ -1,0 +1,30 @@
+:root {
+  /* tipografias */
+  --titles: 'Cinzel', serif;
+  --paragraph: 'Inter', sans-serif;
+  /* Colors */
+  --cards: #16161a;
+  --background-color: #22222e;
+  --yellow: rgb(255, 195, 77);
+  --azul: #5092d1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: var(--titles);
+  background: url('src/assets/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--background-color);
+
+}
