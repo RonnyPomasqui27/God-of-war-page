@@ -10,9 +10,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-// import { Navigation, EffectFade } from 'swiper';
-// import 'swiper/css/navigation';
-// import 'swiper/css/effect-fade';
 
 const Videos = () => {
   return (

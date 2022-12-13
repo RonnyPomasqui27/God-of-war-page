@@ -28,7 +28,7 @@ const Menu = () => {
             </div>
           </div>
         </section>
-        <img src="src/assets/kratos y atreus.png" alt="kratos y atreus" className='character' />
+        <img src="https://gagadget.com/media/cache/07/fd/07fd2e53d781db676bc590bb28402d1f.png" alt="kratos y atreus" className='character' />
       </main>
       <section className='container'>
         <Cards />
@@ -36,9 +36,9 @@ const Menu = () => {
       <section className='collage' data-aos="fade-right">
         <div className="collage_cointaner">
           <div className="collage_img">
-            <img src="src/assets/gameplay.jpeg" alt="gameplay 1" className='collage_imgs' />
-            <img src="src/assets/gameplay 2.jpg" alt="gameplay 2" className='collage_imgs' />
-            <img src="src/assets/gameplay 3.jpg" alt="gameplay 3" className='collage_imgs' />
+            <img src="https://live.staticflickr.com/65535/52441662842_0869ee2900_h.jpg" alt="gameplay 1" className='collage_imgs' />
+            <img src="https://i.blogs.es/bb41d1/god-of-war-ragnarok/840_560.jpeg" alt="gameplay 2" className='collage_imgs' />
+            <img src="https://media-mcetv.ouest-france.fr/wp-content/uploads/2022/11/ps5-le-realisateur-de-god-of-war-ragnarok-eteint-cette-folle-theorie-17112022.jpg" alt="gameplay 3" className='collage_imgs' />
           </div>
           <div className="collage-text">
             <h2>Reino Nordico</h2>

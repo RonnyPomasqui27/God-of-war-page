@@ -21,7 +21,7 @@ body{
   width: 100%;
   height: 100vh;
   font-family: var(--titles);
-  background: url('src/assets/background.jpg');
+  background: url('./assets/background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

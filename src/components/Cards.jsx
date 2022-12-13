@@ -29,7 +29,7 @@ const Cards = () => {
         >
           <SwiperSlide>
             <div className="Swipper_info">
-              <img src="src/assets/angrboda.jpg" alt="" className='card_character' />
+              <img src="https://actugeekgaming.com/wp-content/uploads/2021/09/God-of-War-Ragnarok-Angrboda-1.jpg" alt="" className='card_character' />
               <div className="swipper_character">
                 <p>
                   Angrboda o Angerboda (“la que trae pesar”) es una gigante. Es mencionada en la
@@ -44,7 +44,7 @@ const Cards = () => {
 
           <SwiperSlide>
             <div className="Swipper_info">
-              <img src="src/assets/atreus.jpg" alt="" className='card_character' />
+              <img src="https://static1-es.millenium.gg/articles/4/41/01/4/@/211930-atreus-article_m-1.JPG" alt="" className='card_character' />
               <div className="swipper_character">
                 <p>
                   Atreus es el hijo que Kratos tuvo con una mujer llamada Faye cuando éste emigró
@@ -58,7 +58,7 @@ const Cards = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="Swipper_info">
-              <img src="src/assets/freya.jpg" alt="" className='card_character' />
+              <img src="https://pbs.twimg.com/media/E-7j1B_XoAQREOg.jpg" alt="" className='card_character' />
               <div className="swipper_character">
                 <p>
                   Freya había sido la líder de los dioses Vanir, y había accedido a casarse con
@@ -71,7 +71,7 @@ const Cards = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="Swipper_info">
-              <img src="src/assets/kratos.jpg" alt="" className='card_character' />
+              <img src="https://sm.ign.com/ign_es/gallery/e/every-char/every-character-in-god-of-war-ragnarok_bzf9.jpg" alt="" className='card_character' />
               <div className="swipper_character">
                 <p>
                   Kratos ha tenido un largo viaje hasta los eventos de Ragnarok. Primero,
@@ -86,7 +86,7 @@ const Cards = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="Swipper_info">
-              <img src="src/assets/thor.jpg" alt="" className='card_character' />
+              <img src="https://assets.reedpopcdn.com/thor_xPTO9Oc.png/BROK/resize/1200x1200%3E/format/jpg/quality/70/thor_xPTO9Oc.png" alt="" className='card_character' />
               <div className="swipper_character">
                 <p>
                   Thor es el dios del trueno. Su papel es complejo ya que tenía influencia en
